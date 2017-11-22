@@ -8,13 +8,13 @@ from scipy import stats
 
 u,v=[],[]
 e,f=[],[]
-with open('user1_minal.csv') as csvfile:
+with open('user1.csv') as csvfile:
     data=csv.reader(csvfile,delimiter=',')
     for i in data:
         u.append(float(i[0]))
         v.append(float(i[1]))
 
-with open('user2_charu.csv') as csvfile:
+with open('user2.csv') as csvfile:
     data=csv.reader(csvfile,delimiter=',')
     for k in data:
         e.append(float(k[0]))
